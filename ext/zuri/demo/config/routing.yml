@@ -1,0 +1,5 @@
+## YAML Template.
+---
+zuri_demo_controller:
+    path: /demo/{name}
+    defaults: { _controller: zuri.demo.controller:handle }
